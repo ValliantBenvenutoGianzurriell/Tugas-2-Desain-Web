@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style type="text/css">
+        html{
+            background-color: chartreuse;
+            padding: 10px;
+            line-height: 55px;
+        }
+        body{
+            background-color: springgreen;
+            padding: 10px;
+            margin: 0;
+        }
+        label{
+            width: 200px;
+            display: inline-block;
+        }
+        legend{
+            text-align: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <form action="results.html" method="GET">
+        <fieldset>
+            <legend>User Form</legend>
+            <div id="container1">
+                <label for="name">First Name</label>
+                <Input type="text" name="name" id="name" required>
+            </div>
+            
+            <div id="container2">
+                <label for="password">Password</label>
+                <Input type="password" name="password" required>
+            </div>
+            
+            <div id="container3">
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="Female">
+                <label for="female">Female</label>
+            </div>
+
+            <div id="container4">
+                <label for="address">Address</label>
+                <textarea id="address" name="address"></textarea>
+
+            </div>
+            
+            <div id="container5">
+                <label for="dob">D.O.B.</label>
+                <select name="month">
+                    <option value="january">January</option>
+                    <option value="febuary">Febuary</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select>
+
+                <select name="date">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                    <option value="">31</option>
+                </select>
+
+                <select>
+                    <option value="1990">1990</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                </select>
+            </div>
+
+            <div id="container6">
+                <label for="games">Select Games</label>   
+                <input type="radio" name="selectgames" id="hockey" value="hockey">
+                <label for="hockey">Hockey</label>
+                <input type="radio" name="selectgames" id="football" value="football">
+                <label for="football">Football</label>
+                <input type="radio" name="selectgames" id="cricket" value="cricket">
+                <label for="cricket">Cricket</label>           
+                <input type="radio" name="selectgames" id="volleyball" value="volleyball">
+                <label for="volleyball">Volleyball</label>
+            </div>
+
+            <div id="container7">
+                <label for="martial">Martial Status</label>        
+                <input type="radio" name="martialstatus" id="married" value="married">
+                <label for="married">Married</label>            
+                <input type="radio" name="martialstatus" id="unmarried" value="unmarried">
+                <label for="unmarried">Unmarried</label>
+            </div>
+
+            <div id="container8">
+                <button type="submit" id="buttonone">Submit</button>
+                <button type="reset" id="buttontwo">Reset</button>
+            </div>
+            
+            <div id="container9">
+                <input type="radio" name="agreement" id="agreement" value="agreement">
+                <label for="agreement">I accept this agreement</label>  
+            </div>
+
+           
+        </fieldset>
+    </form>    
+</body>
+</html>
